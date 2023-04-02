@@ -9,4 +9,9 @@ public class HelloWorldController {
     public String helloWorld() {
         return "Ni Hao!";
     }
+
+    @GetMapping("hello2")
+    public String helloWorld2() {
+        return "Ni Hao 2!";
+    }
 }
