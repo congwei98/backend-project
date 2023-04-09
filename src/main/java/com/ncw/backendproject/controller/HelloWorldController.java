@@ -12,6 +12,6 @@ public class HelloWorldController {
 
     @GetMapping("hello2")
     public String helloWorld2() {
-        return "Ni Hao 3!";
+        return "Ni Hao 04091!";
     }
 }
